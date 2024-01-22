@@ -133,4 +133,12 @@ button {
         align-items: center;
         justify-items: center;
     }
+
+    .box {
+        border-radius: 8px;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        transform: translate(-10%, -10%);
+    }
 }
