@@ -89,9 +89,9 @@ button {
 .box {
     border-radius: 8px;
     position: absolute;
-    top: 70%;
+    top: 30%;
     left: 50%;
-    transform: translate(-70%, -50%);
+    transform: translate(-50%, -30%);
 }
 
 .box a {
@@ -105,6 +105,18 @@ button {
 
 
 }
+
+.video {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+
+}
+
+
 
 @media screen and (max-width:576px) {
     h1 {
@@ -142,3 +154,5 @@ button {
         transform: translate(-10%, -10%);
     }
 }
+
+@media screen and (min-width:576px) and (max-width:1250px) {}
